@@ -1,0 +1,1481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+<xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="metadata">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" />
+</xsd:sequence>
+<xsd:attribute name="name" use="required" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+<xsd:attribute ref="xml:space" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="assembly">
+<xsd:complexType>
+<xsd:attribute name="alias" type="xsd:string" />
+<xsd:attribute name="name" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+<xsd:attribute ref="xml:space" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+<value>10, 20</value>
+</data>
+<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+<value>1137, 616</value>
+</data>
+<data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+<value>SimSun, 12pt</value>
+</data>
+<data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+<value>
+        AAABAAEANTUAAAEAIAC0LQAAFgAAACgAAAA1AAAAagAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqJJS2ZJ4J/+PdCH/kngo/5F2
+        Jf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACsmFvPjXIe/5B1JP+wnWL/zcGc/9bMrf+zoWr/vKx7/4VnDf+agjb8AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAKeTUdyRdyb/lHor/6yZW//TyKj/5N/L/+7q3f/r59n/6eTU/8S1
+        if/t6dz/yLqS/5h/NP+LcBv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArptgx41yHv+Teir/tKJr/9LH
+        pv/u6d3/8O7i/+3p2//r5tf/6OPS/+fi0P/m4c7/wbKF/+fi0f/Zz7P/zMCa/8Gzhv+PdSP/hmkQ/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACnklHcnIQ89aiT
+        U/+smVv/qZVW/5J3Jv+kjkr/2dG2/+DYwv/k3cr/4tvF/93Vu//n4s//7+vg/+rl1f/o49H/5+LQ/+bh
+        zv/CtIf/5+LR/9jQtP/KvZb/493I/72tff+um1//gWMI/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAjXEd/7qqd//n4c//9vTu//Px6P/w7eL/186x/72tfP+/sIH/vKx6/8a4
+        j//IupH/xLaK/8W4jv/Ft4z/4tvF/+vn2P/o4tD/5uHO/8O1iP/o49L/186x/8e6kf/j3cj/rZpd/66a
+        Xv+giUP/pI5K4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqZVU15V7Lv/Z0LT/9vTt/87D
+        nv+umlr/s59j/9bNr//t6t3/186w/6uXWv+qllj/vKt6/9fOsf/g2cH/3dW8/8zAm/+5qXb/1Mus/+rl
+        1f/n4tD/yb2V/9vUuv/Z0LX/x7qR/+nk1P+9rXz/pIxH/5uEOv+kj0zhAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACsl1rPjHAc/5iANP+bgzr/2M+z/+vn1/+pk1D/ook+/6+ZVf+ljUD/lXok/8O0h//r59n/w7WI/9bN
+        rv+zoWn/qJNS/7yse//NwZz/5d/L/97Wvv+6qnf/1cyu/+rl1v/Ow5//2dC1/9rRt//IupL/6+fY/8a5
+        j//DtYj/rptg/6WQTt4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAKaQT96TeSn/lXwu/7Siav/g2cT/4NjB/9PIqP/u6t3/p5BK/7Oe
+        Xf/LvI//zb6T/8a2hP+ynFr/n4Y6/+Hbxf/FuY7/4drE/9vTuf+um2D/x7qR/8q+l//BsoX/493I/9zU
+        uv+6qXf/5N7K/87Dn//Z0LT/2tK3/8i7k//q5tf/yLuS/9XLq/+5qXb/o41J5gAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAq5dZ0otwG/+WfS//uKdy/9rS
+        tv/49/H//fz6//z7+f/Tyqr/6eTU/8K0hf+njkX/zb+U/+DXvf/o4c3/2c+u/8Syf/+ghzz/3ta+/8a6
+        kP/d1r3/6OLQ/7+xgv++r4D/5N3J/8i6kf/HuZD/5d/N/8q9l//Lv5n/2M+y/87EoP/b0rj/xbiO/+rm
+        1//Kvpf/q5VW/6GIQf+mkVDcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACnklHck3kp/5Z8Lv+2pW//4NnC//bz7P///////fz6//j38f/49vD/8Ozh/8/Dof/7+vf/n4c7/7ah
+        Yv/SxZ7/7ObW//n28P/i2cH/yLiJ/6SMRP/f2MH/w7WJ/9zUu//o49L/1Mmq/6uXWf/e1r7/5d/M/7yr
+        ev/i3Mb/1Mqr/8a6kP/c1Lr/y7+Z/9zTuv/HuZD/6ubX/8m9lv+zn2b/tZ5j/6SPTOEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiGwV/7Sha//f1r///Pz6/////////////Pz6//r4
+        9P/59/L/+Pbw//j28P/w7OH/08io//z7+f+YfSv/spxa/8u8kP/f17v/5t/K/9rPrv+9q3L/qpRS/93U
+        u//Cs4b/4drD/+jj0v/YzrL/rJha/+DZwv/o4tH/y76Y/87Cn//h28T/x7qR/9HGpP/MwZz/3NS7/8i7
+        k//o49L/3NW7/6yXWv+dgjn/p5JR3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKGK
+        Reu4p3P////////////8/Pr/+/v3//v59v/6+fX/+fjz//n38v/49vD/+Pbw//Dt4//XzrD//Pr4/5V5
+        JP+ljD//uqdt/8i5iv/MvpL/xLSB/6KKP//Kvpb/0sem/8W4jv/s6Nn/5+LQ/9bOsf+plVb/39e//+jj
+        0v/Uyqr/xriO/+fi0f/HupH/y7+Z/8u/mP/c1Lv/yLuS/+bhz//l4c7/zsKe/5N5Kf+nkVDcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmYA4+t/XwP///////fz7//z7+f/7+/j/+/n2//r5
+        9f/5+PP/+ffy//j28P/49vD/8Ozh/9PJqf//////pIxF/5JzF/+jijv/rphS/7CZVf+cgTH/tqRu/+fh
+        z/+8rXv/5N3J/+nk0//m4M3/y7+Z/7Sja//d1Lr/6OPS/9XLrf/GuI7/5+PR/8i7kv/NwZv/zcGd/9zT
+        uv/IupL/5+LQ/+PdyP/k3sn/m4Q8/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACbgzn/5+HP///////9/Pv//Pv5//v7+P/7+fb/+vn1//n48//59/L/+Pbw//j28f/v7OD/yr6X////
+        ///j3Mf/oIg9/5N2H/+WeCH/moAw/8S1iP/q5df/v7CC/9fOsP/t6dz/5+LQ/+TdyP+xn2T/xbiN/+Xe
+        y//m4M7/y76Y/8/EoP/j3cj/xrmP/8/EoP/MwZz/4NnC/8a4jv/i28b/497J/+Teyf+giUP/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJuDOf/l38z///////38+//8+/n/+/v4//v5
+        9v/6+fX/+fjz//n38v/59/L/9/Xw//j38v/Uyar/3NS6///////7+/j/29K3/87Cnv/r5tf/6ubW/7+w
+        gv/QxKL/7+zg/+rl1v/s6Nr/xrmO/7KfZv/SyKf/6+bX/+Teyv/AsIL/3dW8/9nRtf/IvJP/1syu/8m9
+        lf/k3sv/yLuT/97Xvv/k3sr/5N3I/5+IQf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAm4M5/+XfzP///////fz7//z7+f/7+/j/+/n2//v59v///v3//v38//f27//8+/n/+ffz//Px
+        6P/PxKH/z8Sg/+7s3//s6Nr/7OfZ/9bLrf+/sYL/3te///Tx6P/s6Nr/7+vf/9HHpf+vnGH/wLGB/+rm
+        1v/n4tD/4tvG/7yse//k3sr/0sen/8e6kP/c1br/yb2V/+Teyv/Iu5P/3te//+Teyv/l38z/pI5K/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbgzn/5d/M///////9/Pv//v39//39
+        /P//////+vj0/93Vu//Mv5j/uadw/87Dnv/z8Of/+Pfy//f07v/PxKH/rptg/8m8lP/Uyqz/4NnB//Tx
+        6f/18+z/8e3j/+/s3//QxqP/sZ9l/7iodP/k3sr/6+fX/+vm1//HuY//zMCb/+Teyv/Ow5//y7+X/93V
+        vP/Kvpj/5N7K/8i7k//e17//493I/+nk0/+um2D/sp9mwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAJuDOf/l38z///////z8+v/y7+b/5+HP/8e5jv+5p3H/sZxf/6qTTv+ki0D/kXUe/9bN
+        r//8+/n/9fPs//r69v++r3//uKh0/9jPtP/z8Oj/7enc/+vm1//l3sv/va18/6+dYv/AsYL/5d/N/+7q
+        3f/t6dz/2M+y/7incv/f17//4dvF/76uff/j3cf/2dC0/8q9lv/k3sr/yLuU/9/YwP/j3cj/6eTT/66b
+        X/+yoGfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmYE2/+bfzf/j3Mf/0cak/8Gx
+        g/+9rHj/x7mL/8Kxfv+7qHD/sp1c/6mRSf+Qchn/0MSh//38+//18uv/+fn1/8e6kP+/sIH/sZ5l/7Ge
+        Zf/AsYL/uadz/7CcYv+/r4D/0MSh//Dt4v/x7uT/7+3h/9vSt/+8rHr/1s2u/+Xgzf/NwZz/xrmO/+vm
+        1//c1br/yLuS/+Haxf/IupH/3NS6/+Peyf/p5NP/rppf/7OgaL0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACTeSr/xreN/9DFof/b0bX/4di+/9fMqv/LvJD/wK55/7aiZf+tlVH/oIY3/5R3
+        Iv/e1r7/+/r3//Xy6//39vD/1syu/83BnP/SyKf/sZ9m/87Cnv/d1Lv/6ePS/+7q3f/7+vf/8/Do/+bf
+        zf/Lv5j/vKx6/9jOsf/k38v/3dW7/7incv/g2MH/6eTU/+Lbxf/KvZb/49zI/8i8lP/Wza7/5N/L/+nk
+        0/+vnGH/sJ5kwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAItvGv/Kvpf/8/Dm/+Xe
+        yf/Zz6//z8Ka/8W2hv+7qHD/sZtZ/6KIPP+Pchf/v7B///v69//29O3/9fLr//Xy6//v7OD/tqVv/+Pd
+        yP/f2MD/xbiO/8u/mf/Z0bX/3NO5/9jOsv/QxaP/vK18/8W4jf/h2sP/5N3J/97Xvv+3pnH/1Mur/+vm
+        1//n4tD/4dvE/8m9lv/k3sr/yr6W/9bNrv/k38v/6OLQ/7mpdv+jjUnmAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAjHAb/9DFof/x7N//4di//9bKqP/Es4P/t6Rq/6uVUv+mj0r/sZ1h/9fN
+        r//39e//9/Xw//b07f/18uv/9PLq//b17v/SyKb/wLGD/+Tfy//k3sv/3NS6/87Dn//PxaL/0MSi/8/E
+        of/f2ML/5N3K/+Xey//d1b3/uah1/8vAmf/r59j/5+LQ/+fi0P/i28X/yr2W/+Pdyf/JvZb/1s2u/+Tf
+        y//n4tD/vKx6/6SOS+MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPdCH/vq5+/8q9
+        k//DtIT/u6l0/76vff/Ftor/3ta8//b07v/5+PT//f36//n38v/29O7/9vTt//Xy6//08ur/9PLq//Xz
+        7P/Bs4T/wbKF/+Pcx//j3Mf/5N7J/+PdyP/j3cn/5N7J/+PdyP/i28X/yLuT/6+bX//XzrD/7urd/+jj
+        0v/n4tD/6OPR/97Xvv/Iu5P/5uDO/8m9lf/Wza7/5N/L/+fi0P+7q3n/o41J5gAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAJd/Mv/s59r/4dnE/+Pbx//k3sr/9/fx///////+/fz/+vn0//j3
+        8v/49vD/9/Xv//b07v/29O3/9fLr//Ty6v/z8ej/8/Ho//Lw5v/NwZ7/uqp2/9HHpf/Yz7P/2M+z/9fO
+        sf/XzrH/zL+Z/7modP/Lv5n/wrSG/9LHpf/t6dr/6OPR/+fi0P/p5NP/186w/8K0hv/t6dz/yLyU/9bN
+        rv/k38v/5+LQ/7uqeP+jjUrjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlHou//v6
+        +P/////////////////8/fr/+/n2//r59f/5+PP/+ffy//j28P/39e//9vTu//b07f/18uv/9PLq//Px
+        6P/z8Of/9fLq//X07f/q5tf/0sin/8a5jf/IvJP/x7uT/7modP/Cs4f/6uXW//Ds4P/l38z/xbiN/+Xf
+        y//p5NP/5+LQ/+rm1v/GuY7/0sen/+vn2f/JvZT/1cyt/+Tfy//n4c//v7CB/5yFPfUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACchDz//f37//7+/f/9/Pv//Pv5//v7+P/7+fb/+vn1//n4
+        8//59/L/+Pbw//f17//29O7/9vTt//Xz7P/49vH/+fj0//Ty6//s6dv/5+HP/8u8lf+7qHX/4dnC//Ty
+        6f/b0rj/08mp/9LHpf/08en/7+zf/+bgzf/Ft43/5N7K/+rm1v/s6Nr/ybuT/8Kzhv/p5NT/4tvG/8Kz
+        hv/c1Lr/497J/+bgzP/JvZX/lHov/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKGK
+        Rf/+/v3//v79//38+//8+/n/+/v4//v59v/6+fX/+fjz//n38v/49vD/9/Xv//b07v/59/L/+fjz/+Lb
+        xv/Uyqr/xraM/7CaXv+tlFX/uJ5l/7GXWf/Uyaj/2dC0/6+cYv+5qHX/w7WJ/9bMrf/g2MH/wLKD/8/F
+        of/w7OD/6OPR/8e6kP+9rXz/5N7J/+rl1v/Owp//w7SJ/+fi0f/i3Mb/6OPS/7qqd/+fiULtAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoIpD//7+/f/+/v3//fz7//z7+f/7+/j/+/n2//r5
+        9f/5+PP/+ffy//j28P/39e//+vn1/+HZwv+1oGj/tZ1j/7GXWv+1m2D/wal2/8Oref/Dq3r/tZtg/9HF
+        o//w7eP/0cel/+Tdyf/i28b/0sel/9HGo//QxaH/49zH/9TKqv+9rXz/y7+Y/+jj0v/q5tf/29S5/7yr
+        ev/g2cP/493J/+Peyv/i28b/k3ou/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACgikP//v79//7+/f/9/Pv//Pv5//v7+P/7+fb/+vn1//n48//59/L/+Pbw//j28P/08ur/tqJq/7id
+        Y//BqHT/w6t5/8Oref/Cqnf/wqp4/8Sse/+uk1P/y72W//f17//z8en/8+/n/+fgzv/Uyqr/z8Wi/8zA
+        mf/BsoP/z8Sh/+Peyf/r6Nn/7OjZ/9XLq/+9rn3/3NS7/+bgzv/j3cj/6OTT/7akbv+IaxT/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCKQ//+/v3//v79//38+//8+/n/+/v4//v5
+        9v/6+fX/+fjz//n38v/49vD/+Pbx//Lv5v+2oGj/xKt6/8Orev/AqHX/u6Fp/7qhaf+0m2D/sZpf/7il
+        bv/a0bX/493I/8q+mP/Etov/ybyU/9TJqP/Z0bT/6ubW//Dt4f/m4M3/49zG/9PIp/+/sID/v7GC/97W
+        vv/n4tH/5uHP/+nl1f/Bs4T/fV4A/52HP/IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAn4lC//79/f/+/v3//fz7//z7+f/7+/j/+/n2//r59f/5+PP/+ffy//j28P/49vH/8vDn/7Kb
+        YP+3nWP/spda/7egaP+/rn3/vax7/8S3i//Tyaj/zsOf/8W3jf/JvJT/493I/+nk1f/u6t7/8u/l/+Ha
+        xP/Uyan/zMCb/8O2iv/Bs4X/0MWj/+DZwv/n49H/7Oja/+vm2P/d1r7/sJ5k/450If+ReCr/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkj0v///////7+/f/9/Pv//Pv5//v7
+        +P/7+fb/+vn1//n48//59/L/+ffy//v59v/7+/n/0cWi/76rev/MwJv/w7WI/8u/mf/Rx6b/2M+z/9nR
+        tP/q5tX/9vTt/+/r3v/p5NP/2dG2/8e6kf/Ftov/zMGc/9LHpf/YzrL/7enb//Lw5f/s6Nn/5uDN/9nR
+        tP/AsoT/q5db/5N5Kf+NcRz/ln4x/4tuGf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAKuXWv///////v39//38+//8+/n/+/v4//z69//7+fb//Pr4//39+//49vD/493I/9vT
+        uv/XzrH/zL+a/9LHpv/k3sr/7erd//Lu5P/49/L/6ubW/9rRtf/Uyqv/yr6X/8S3jP/QxKL/5d7L/+jj
+        0f/v7OD/9PPq/+nk1P/Uyqv/v7CB/6SQTf+Lbxr/e1wA/3lZAP+IaxT/jnMe/45yHv8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAq5dZ///////+/v3///7/////
+        ///+/fz/9vPt//Pw5//i2sX/zcCb/8zAmf/XzrD/3NS6/+nk1P/7+fb/9fTs//Hu5P/q5tb/y8CZ/7+w
+        gP/KvZb/0MWi/9XMrv/t6t3/+Pfz//Pv5v/r5tj/2tG1/7ytfP+mj07/ln0w/5F2JP+hikXrAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACrl1n////////////u6t7/4trF/9vTuv/MwJv/zsGc/97Wvf/y7+T/9fPr//7+
+        /P/29O3/3te+/9nPs//SyKf/wbOF/7emcf/Hu5L/ybyU/8/Dn//TyKf/08in/9TJqv/Iu5P/ppJQ/5J4
+        Kf+VfC7/o41J5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK+cYv/v7OH/y7+Y/9nP
+        s//f17//5uHO//z8+v//////+/r2//Tx6P/Z0LP/0MSh/9PKqv/Vza7/4NnD/+Teyv/EtYr/wLCB/8O1
+        if/OxKD/zcKd/87Cnf/HupH/rJhb/3xdA/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAkXYn/8e6kv/49vL///////v7+P/s6Nn/6OLR/9fNr/+yn2f/tKJr/8a4
+        jf/QxaL/4trF//z8+f/y7+b/wLKE/4VoDf/XzrD/5d/L/8Kyg/+7qHT/wbB//+bgzf/KvZX/fFwA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/YAf/noY//9fO
+        sP/XzbD/2tC1/8i7k/+plFX/uqZx/8e0h//Drn7/w658/7OcYP+ehDz/oIlD/5J4KP+ZgTb/j3Qh/5h/
+        M/+bgzn/nYI3/7KaXf+dgjf/m4M5/5B2Jf+fiUPtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQdiX/i3Aa/7+wgf/o4tL/xbWJ/76pdP++qHT/vadx/6mQ
+        Tf+hhz//qZJR3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKiTVNekjkvjooxI5qiTU9mplFTXAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAlXwv/5V7Lf+WfS//iWwV/5+IQf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////////+P3////////4/f////////j9////////+P3////////4/f//
+        //////j9//////g/+P3/////wA/4/f////4AB/j9////8AAB+P3///wAAAD4/f//+AAAAHj9///gAAAA
+        eP3//wAAAAB4/f/4AAAAAHj9/8AAAAAAeP3+AAAAAAB4/fwAAAAAAHj9+AAAAAAAeP34AAAAAAD4/fgA
+        AAAAAPj9+AAAAAAA+P34AAAAAAD4/fgAAAAAAHj9+AAAAAAAeP34AAAAAAB4/fgAAAAAAHj9+AAAAAAA
+        eP34AAAAAAB4/fgAAAAAAHj9+AAAAAAAeP34AAAAAAB4/fgAAAAAAHj9+AAAAAAAeP34AAAAAAD4/fgA
+        AAAAAPj9+AAAAAAA+P34AAAAAAH4/fgAAAAAAfj9+AAAAAAH+P34AAAAA//4/fgAAAA///j9+AAAA///
+        +P34AAAD///4/fgAAAP///j9/AB+D///+P3/B//////4/f////////j9////////+P3////////4/f//
+        //////j9////////+P3////////4/Q==
+</value>
+</data>
+<data name="$this.Text" xml:space="preserve">
+    <value>收集照片</value>
+  </data>
+<data name="button_Execute.Location" type="System.Drawing.Point, System.Drawing">
+<value>1014, 4</value>
+</data>
+<data name="button_Execute.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 344</value>
+</data>
+<data name="button_Execute.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+<data name="button_FilterSourcePaths.Location" type="System.Drawing.Point, System.Drawing">
+<value>1010, 2</value>
+</data>
+<data name="button_FilterSourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 273</value>
+</data>
+<data name="button_FilterSourcePaths.Text" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+<data name="button_SelectCommand.Location" type="System.Drawing.Point, System.Drawing">
+<value>1010, 4</value>
+</data>
+<data name="button_SelectCommand.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 72</value>
+</data>
+<data name="button_SelectCommand.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+<data name="button_SelectDestinationRootDirectory.Location" type="System.Drawing.Point, System.Drawing">
+<value>994, 2</value>
+</data>
+<data name="button_SelectDestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 92</value>
+</data>
+<data name="button_SelectDestinationRootDirectory.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+<data name="button_SelectSourceDirectories.Location" type="System.Drawing.Point, System.Drawing">
+<value>1010, 2</value>
+</data>
+<data name="button_SelectSourceDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 99</value>
+</data>
+<data name="button_SelectSourceDirectories.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+<data name="button_Start.Location" type="System.Drawing.Point, System.Drawing">
+<value>564, 2</value>
+</data>
+<data name="button_Start.Size" type="System.Drawing.Size, System.Drawing">
+<value>556, 107</value>
+</data>
+<data name="button_Start.Text" xml:space="preserve">
+    <value>开始复制</value>
+  </data>
+<data name="checkBox_AutoDetermine.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_AutoDetermine.Size" type="System.Drawing.Size, System.Drawing">
+<value>191, 24</value>
+</data>
+<data name="checkBox_AutoDetermine.Text" xml:space="preserve">
+    <value>检测图片文件后缀</value>
+  </data>
+<data name="checkBox_AutoRename.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_AutoRename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 2, 2, 2</value>
+</data>
+<data name="checkBox_AutoRename.Size" type="System.Drawing.Size, System.Drawing">
+<value>131, 24</value>
+</data>
+<data name="checkBox_AutoRename.Text" xml:space="preserve">
+    <value>自动重命名</value>
+  </data>
+<data name="checkBox_AutoStart.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_AutoStart.Size" type="System.Drawing.Size, System.Drawing">
+<value>191, 24</value>
+</data>
+<data name="checkBox_AutoStart.Text" xml:space="preserve">
+    <value>自动开始“复制”</value>
+  </data>
+<data name="checkBox_CopyLowGradeImage.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_CopyLowGradeImage.Size" type="System.Drawing.Size, System.Drawing">
+<value>171, 24</value>
+</data>
+<data name="checkBox_CopyLowGradeImage.Text" xml:space="preserve">
+    <value>复制低等级图片</value>
+  </data>
+<data name="checkBox_CreateSubDestinationRootDirectory.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_CreateSubDestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>171, 24</value>
+</data>
+<data name="checkBox_CreateSubDestinationRootDirectory.Text" xml:space="preserve">
+    <value>创建子根文件夹</value>
+  </data>
+<data name="checkBox_DeleteAfterCopy.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 102</value>
+</data>
+<data name="checkBox_DeleteAfterCopy.Size" type="System.Drawing.Size, System.Drawing">
+<value>211, 24</value>
+</data>
+<data name="checkBox_DeleteAfterCopy.Text" xml:space="preserve">
+    <value>复制后，删除源文件</value>
+  </data>
+<data name="checkBox_DeleteAlreadyExists.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 102</value>
+</data>
+<data name="checkBox_DeleteAlreadyExists.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 2, 2, 2</value>
+</data>
+<data name="checkBox_DeleteAlreadyExists.Size" type="System.Drawing.Size, System.Drawing">
+<value>211, 24</value>
+</data>
+<data name="checkBox_DeleteAlreadyExists.Text" xml:space="preserve">
+    <value>已存在，删除源文件</value>
+  </data>
+<data name="checkBox_DeleteReadOnly.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 102</value>
+</data>
+<data name="checkBox_DeleteReadOnly.Size" type="System.Drawing.Size, System.Drawing">
+<value>171, 24</value>
+</data>
+<data name="checkBox_DeleteReadOnly.Text" xml:space="preserve">
+    <value>删除只读源文件</value>
+  </data>
+<data name="checkBox_FilterWhileSearching.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_FilterWhileSearching.Size" type="System.Drawing.Size, System.Drawing">
+<value>131, 24</value>
+</data>
+<data name="checkBox_FilterWhileSearching.Text" xml:space="preserve">
+    <value>搜索时过滤</value>
+  </data>
+<data name="checkBox_MultipleJobs.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 101</value>
+</data>
+<data name="checkBox_MultipleJobs.Size" type="System.Drawing.Size, System.Drawing">
+<value>131, 24</value>
+</data>
+<data name="checkBox_MultipleJobs.Text" xml:space="preserve">
+    <value>并行多任务</value>
+  </data>
+<data name="commandOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>81, 24</value>
+</data>
+<data name="commandOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>命令选项</value>
+  </data>
+<data name="commandToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="commandToolStripMenuItem.Text" xml:space="preserve">
+    <value>命令路径</value>
+  </data>
+<data name="componentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>96, 24</value>
+</data>
+<data name="componentToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件名组成</value>
+  </data>
+<data name="dateCreatedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="dateCreatedToolStripMenuItem.Text" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+<data name="dateCreatedToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="dateCreatedToolStripMenuItem1.Text" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+<data name="dateModifiedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="dateModifiedToolStripMenuItem.Text" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+<data name="dateTakenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="dateTakenToolStripMenuItem.Text" xml:space="preserve">
+    <value>拍摄日期</value>
+  </data>
+<data name="dateTakenToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="dateTakenToolStripMenuItem1.Text" xml:space="preserve">
+    <value>拍摄日期</value>
+  </data>
+<data name="dayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="dayToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="dayToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem2.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="dayToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem3.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="dayToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem4.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="dayToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="dayToolStripMenuItem5.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+<data name="destinationRootDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="destinationRootDirectoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>目的根文件夹</value>
+  </data>
+<data name="fileExtensionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="fileExtensionToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件扩展名</value>
+  </data>
+<data name="fileSizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="fileSizeToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件大小</value>
+  </data>
+<data name="fileSizeToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="fileSizeToolStripMenuItem1.Text" xml:space="preserve">
+    <value>文件大小</value>
+  </data>
+<data name="groupBox_AutoDetermineImageFileExtension.Location" type="System.Drawing.Point, System.Drawing">
+<value>563, 146</value>
+</data>
+<data name="groupBox_AutoDetermineImageFileExtension.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_AutoDetermineImageFileExtension.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_AutoDetermineImageFileExtension.Text" xml:space="preserve">
+    <value>[过滤规则]遇到未知文件后缀时，检测图片文件后缀</value>
+  </data>
+<data name="groupBox_AutoRename.Location" type="System.Drawing.Point, System.Drawing">
+<value>562, 290</value>
+</data>
+<data name="groupBox_AutoRename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 2, 2, 2</value>
+</data>
+<data name="groupBox_AutoRename.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 48, 2, 2</value>
+</data>
+<data name="groupBox_AutoRename.Size" type="System.Drawing.Size, System.Drawing">
+<value>276, 140</value>
+</data>
+<data name="groupBox_AutoRename.Text" xml:space="preserve">
+    <value>[复制规则]如果目的文件名已存在，文件大小不同，自动生成新的目的文件名</value>
+  </data>
+<data name="groupBox_AutoStart.Location" type="System.Drawing.Point, System.Drawing">
+<value>843, 146</value>
+</data>
+<data name="groupBox_AutoStart.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_AutoStart.Size" type="System.Drawing.Size, System.Drawing">
+<value>277, 140</value>
+</data>
+<data name="groupBox_AutoStart.Text" xml:space="preserve">
+    <value>[过滤复制规则]“过滤”任务完成后开始“复制”任务</value>
+  </data>
+<data name="groupBox_CollectedDestinationPaths.Location" type="System.Drawing.Point, System.Drawing">
+<value>564, 113</value>
+</data>
+<data name="groupBox_CollectedDestinationPaths.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_CollectedDestinationPaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>556, 432</value>
+</data>
+<data name="groupBox_CollectedDestinationPaths.Text" xml:space="preserve">
+    <value>已复制目的文件路径</value>
+  </data>
+<data name="groupBox_CollectedSourcePaths.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_CollectedSourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>555, 432</value>
+</data>
+<data name="groupBox_CollectedSourcePaths.Text" xml:space="preserve">
+    <value>已复制源文件路径</value>
+  </data>
+<data name="groupBox_Command.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_Command.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 108</value>
+</data>
+<data name="groupBox_Command.Text" xml:space="preserve">
+    <value>选择或编辑命令</value>
+  </data>
+<data name="groupBox_CommandOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_CommandOptions.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 108</value>
+</data>
+<data name="groupBox_CommandOptions.Text" xml:space="preserve">
+    <value>选择或编辑命令选项</value>
+  </data>
+<data name="groupBox_CopyLowGradeImage.Location" type="System.Drawing.Point, System.Drawing">
+<value>843, 290</value>
+</data>
+<data name="groupBox_CopyLowGradeImage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 48, 2, 2</value>
+</data>
+<data name="groupBox_CopyLowGradeImage.Size" type="System.Drawing.Size, System.Drawing">
+<value>277, 140</value>
+</data>
+<data name="groupBox_CopyLowGradeImage.Text" xml:space="preserve">
+    <value>[复制规则]复制无“拍摄日期”或者“照相机制造商”或者“照相机型号”图片</value>
+  </data>
+<data name="groupBox_CreateSubDestinationRootDirectory.Location" type="System.Drawing.Point, System.Drawing">
+<value>283, 290</value>
+</data>
+<data name="groupBox_CreateSubDestinationRootDirectory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_CreateSubDestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_CreateSubDestinationRootDirectory.Text" xml:space="preserve">
+    <value>[复制规则]为每一个子任务创建一个子根文件夹</value>
+  </data>
+<data name="groupBox_DeleteAfterCopy.Location" type="System.Drawing.Point, System.Drawing">
+<value>283, 434</value>
+</data>
+<data name="groupBox_DeleteAfterCopy.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_DeleteAfterCopy.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 142</value>
+</data>
+<data name="groupBox_DeleteAfterCopy.Text" xml:space="preserve">
+    <value>[删除规则]复制后，删除源文件</value>
+  </data>
+<data name="groupBox_DeleteAlreadyExists.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 434</value>
+</data>
+<data name="groupBox_DeleteAlreadyExists.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 2, 2, 2</value>
+</data>
+<data name="groupBox_DeleteAlreadyExists.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_DeleteAlreadyExists.Size" type="System.Drawing.Size, System.Drawing">
+<value>276, 142</value>
+</data>
+<data name="groupBox_DeleteAlreadyExists.Text" xml:space="preserve">
+    <value>[删除规则]如果目的文件已存在，删除源文件</value>
+  </data>
+<data name="groupBox_DeleteReadOnly.Location" type="System.Drawing.Point, System.Drawing">
+<value>563, 434</value>
+</data>
+<data name="groupBox_DeleteReadOnly.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_DeleteReadOnly.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 142</value>
+</data>
+<data name="groupBox_DeleteReadOnly.Text" xml:space="preserve">
+    <value>[删除规则]删除只读源文件</value>
+  </data>
+<data name="groupBox_DestinationDirectoryPath.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_DestinationDirectoryPath.Size" type="System.Drawing.Size, System.Drawing">
+<value>1117, 285</value>
+</data>
+<data name="groupBox_DestinationDirectoryPath.Text" xml:space="preserve">
+    <value>目的文件夹路径</value>
+  </data>
+<data name="groupBox_DestinationFileName.Location" type="System.Drawing.Point, System.Drawing">
+<value>3, 291</value>
+</data>
+<data name="groupBox_DestinationFileName.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_DestinationFileName.Size" type="System.Drawing.Size, System.Drawing">
+<value>1117, 285</value>
+</data>
+<data name="groupBox_DestinationFileName.Text" xml:space="preserve">
+    <value>编辑目的文件名</value>
+  </data>
+<data name="groupBox_DestinationRootDirectory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_DestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>1107, 124</value>
+</data>
+<data name="groupBox_DestinationRootDirectory.Text" xml:space="preserve">
+    <value>选择或编辑目的根文件夹</value>
+  </data>
+<data name="groupBox_DestinationSubDirectories.Location" type="System.Drawing.Point, System.Drawing">
+<value>3, 130</value>
+</data>
+<data name="groupBox_DestinationSubDirectories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_DestinationSubDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1107, 125</value>
+</data>
+<data name="groupBox_DestinationSubDirectories.Text" xml:space="preserve">
+    <value>编辑目的子文件夹</value>
+  </data>
+<data name="groupBox_ExcludeFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>283, 146</value>
+</data>
+<data name="groupBox_ExcludeFileExtensions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_ExcludeFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_ExcludeFileExtensions.Text" xml:space="preserve">
+    <value>[过滤规则]文件后缀，匹配则忽略</value>
+  </data>
+<data name="groupBox_ExecutionInformation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_ExecutionInformation.Size" type="System.Drawing.Size, System.Drawing">
+<value>1005, 344</value>
+</data>
+<data name="groupBox_ExecutionInformation.Text" xml:space="preserve">
+    <value>执行信息</value>
+  </data>
+<data name="groupBox_FilterWhileSearching.Location" type="System.Drawing.Point, System.Drawing">
+<value>563, 2</value>
+</data>
+<data name="groupBox_FilterWhileSearching.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 48, 2, 2</value>
+</data>
+<data name="groupBox_FilterWhileSearching.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_FilterWhileSearching.Text" xml:space="preserve">
+    <value>[搜索过滤规则]搜索源文件路径时，使用给定的文件后缀过滤源文件路径</value>
+  </data>
+<data name="groupBox_FilterWhileSearching.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+<data name="groupBox_ImageFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>3, 146</value>
+</data>
+<data name="groupBox_ImageFileExtensions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_ImageFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_ImageFileExtensions.Text" xml:space="preserve">
+    <value>[过滤规则]图片文件后缀，匹配则复制</value>
+  </data>
+<data name="groupBox_ImageProperties.Location" type="System.Drawing.Point, System.Drawing">
+<value>562, 2</value>
+</data>
+<data name="groupBox_ImageProperties.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_ImageProperties.Size" type="System.Drawing.Size, System.Drawing">
+<value>554, 100</value>
+</data>
+<data name="groupBox_ImageProperties.Text" xml:space="preserve">
+    <value>图片属性</value>
+  </data>
+<data name="groupBox_ImageViewer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_ImageViewer.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 132</value>
+</data>
+<data name="groupBox_ImageViewer.Text" xml:space="preserve">
+    <value>图片查看器</value>
+  </data>
+<data name="groupBox_IncludeFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>843, 2</value>
+</data>
+<data name="groupBox_IncludeFileExtensions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_IncludeFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>277, 140</value>
+</data>
+<data name="groupBox_IncludeFileExtensions.Text" xml:space="preserve">
+    <value>[过滤规则]文件后缀，匹配则复制</value>
+  </data>
+<data name="groupBox_IncludeFileExtensions.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+<data name="groupBox_MultipleJobs.Location" type="System.Drawing.Point, System.Drawing">
+<value>3, 290</value>
+</data>
+<data name="groupBox_MultipleJobs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_MultipleJobs.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_MultipleJobs.Text" xml:space="preserve">
+    <value>[复制规则]为每一个源文件夹创建一个子任务</value>
+  </data>
+<data name="groupBox_PictureBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_PictureBox.Size" type="System.Drawing.Size, System.Drawing">
+<value>553, 100</value>
+</data>
+<data name="groupBox_PictureBox.Text" xml:space="preserve">
+    <value>选择一个源文件路径查看图片</value>
+  </data>
+<data name="groupBox_SearchDirectoriesBypassPatterns.Location" type="System.Drawing.Point, System.Drawing">
+<value>283, 2</value>
+</data>
+<data name="groupBox_SearchDirectoriesBypassPatterns.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_SearchDirectoriesBypassPatterns.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_SearchDirectoriesBypassPatterns.Text" xml:space="preserve">
+    <value>[搜索规则]忽略正则匹配的文件夹路径</value>
+  </data>
+<data name="groupBox_SearchDirectoriesBypassPatterns.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+<data name="groupBox_SearchDirectoriesDeepnessLimitation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 26, 2, 2</value>
+</data>
+<data name="groupBox_SearchDirectoriesDeepnessLimitation.Size" type="System.Drawing.Size, System.Drawing">
+<value>274, 140</value>
+</data>
+<data name="groupBox_SearchDirectoriesDeepnessLimitation.Text" xml:space="preserve">
+    <value>[搜索规则]源文件夹搜索深度</value>
+  </data>
+<data name="groupBox_SearchDirectoriesDeepnessLimitation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+<data name="groupBox_SourceDirectories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_SourceDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 131</value>
+</data>
+<data name="groupBox_SourceDirectories.Text" xml:space="preserve">
+    <value>选择或编辑源文件夹路径</value>
+  </data>
+<data name="groupBox_SourcePaths.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>2, 3, 2, 2</value>
+</data>
+<data name="groupBox_SourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 305</value>
+</data>
+<data name="groupBox_SourcePaths.Text" xml:space="preserve">
+    <value>源文件路径</value>
+  </data>
+<data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>51, 24</value>
+</data>
+<data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+<data name="helpToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>51, 24</value>
+</data>
+<data name="helpToolStripMenuItem1.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+<data name="hourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="hourToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem1.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="hourToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem2.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="hourToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem3.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="hourToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem4.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="hourToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="hourToolStripMenuItem5.Text" xml:space="preserve">
+    <value>时</value>
+  </data>
+<data name="imageHeightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="imageHeightToolStripMenuItem.Text" xml:space="preserve">
+    <value>图片高度</value>
+  </data>
+<data name="imageWidthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="imageWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>图片宽度</value>
+  </data>
+<data name="label_ProgressSourcePath.Location" type="System.Drawing.Point, System.Drawing">
+<value>564, 547</value>
+</data>
+<data name="label_ProgressSourcePath.Size" type="System.Drawing.Size, System.Drawing">
+<value>556, 31</value>
+</data>
+<data name="latitudeLongitudeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="latitudeLongitudeToolStripMenuItem.Text" xml:space="preserve">
+    <value>纬度经度</value>
+  </data>
+<data name="manufactorerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="manufactorerToolStripMenuItem.Text" xml:space="preserve">
+    <value>照相机制造商</value>
+  </data>
+<data name="manufacturerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="manufacturerToolStripMenuItem.Text" xml:space="preserve">
+    <value>照相机制造商</value>
+  </data>
+<data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>7, 2, 0, 2</value>
+</data>
+<data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+<value>1103, 28</value>
+</data>
+<data name="menuStrip2.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="menuStrip2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+<value>7, 2, 0, 2</value>
+</data>
+<data name="menuStrip2.Size" type="System.Drawing.Size, System.Drawing">
+<value>1113, 28</value>
+</data>
+<data name="menuStrip3.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="menuStrip3.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 28</value>
+</data>
+<data name="minuteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="minuteToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem1.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="minuteToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem2.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="minuteToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem3.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="minuteToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem4.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="minuteToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="minuteToolStripMenuItem5.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+<data name="modelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="modelToolStripMenuItem.Text" xml:space="preserve">
+    <value>照相机型号</value>
+  </data>
+<data name="modelToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="modelToolStripMenuItem1.Text" xml:space="preserve">
+    <value>照相机型号</value>
+  </data>
+<data name="modifiedDateTimeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="modifiedDateTimeToolStripMenuItem.Text" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+<data name="monthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="monthToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem1.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="monthToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem2.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="monthToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem3.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="monthToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem4.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="monthToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="monthToolStripMenuItem5.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+<data name="originalFileNameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="originalFileNameToolStripMenuItem.Text" xml:space="preserve">
+    <value>原始文件名</value>
+  </data>
+<data name="originalFileNameToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="originalFileNameToolStripMenuItem1.Text" xml:space="preserve">
+    <value>原始文件名</value>
+  </data>
+<data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+<value>549, 72</value>
+</data>
+<data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 552</value>
+</data>
+<data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+<value>553, 21</value>
+</data>
+<data name="progressBar_Execution.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 319</value>
+</data>
+<data name="progressBar_Execution.Size" type="System.Drawing.Size, System.Drawing">
+<value>1001, 23</value>
+</data>
+<data name="richTextBox_CollectedDestinationPaths.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="richTextBox_CollectedDestinationPaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>552, 404</value>
+</data>
+<data name="richTextBox_CollectedSourcePaths.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="richTextBox_CollectedSourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>551, 404</value>
+</data>
+<data name="richTextBox_Command.Size" type="System.Drawing.Size, System.Drawing">
+<value>1001, 72</value>
+</data>
+<data name="richTextBox_CommandOptions.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 54</value>
+</data>
+<data name="richTextBox_CommandOptions.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 52</value>
+</data>
+<data name="richTextBox_DestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>985, 92</value>
+</data>
+<data name="richTextBox_DestinationSubDirectories.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 54</value>
+</data>
+<data name="richTextBox_DestinationSubDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1103, 69</value>
+</data>
+<data name="richTextBox_ExcludeFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 49</value>
+</data>
+<data name="richTextBox_ExcludeFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>270, 89</value>
+</data>
+<data name="richTextBox_ExecutionInformation.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="richTextBox_ExecutionInformation.Size" type="System.Drawing.Size, System.Drawing">
+<value>1001, 293</value>
+</data>
+<data name="richTextBox_FileNameComponent.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 54</value>
+</data>
+<data name="richTextBox_FileNameComponent.Size" type="System.Drawing.Size, System.Drawing">
+<value>1113, 229</value>
+</data>
+<data name="richTextBox_ImageFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 49</value>
+</data>
+<data name="richTextBox_ImageFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>270, 89</value>
+</data>
+<data name="richTextBox_ImageProperties.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="richTextBox_ImageProperties.Size" type="System.Drawing.Size, System.Drawing">
+<value>550, 72</value>
+</data>
+<data name="richTextBox_IncludeFileExtensions.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 49</value>
+</data>
+<data name="richTextBox_IncludeFileExtensions.Size" type="System.Drawing.Size, System.Drawing">
+<value>273, 89</value>
+</data>
+<data name="richTextBox_SearchDirectoriesBypassPatterns.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 49</value>
+</data>
+<data name="richTextBox_SearchDirectoriesBypassPatterns.Size" type="System.Drawing.Size, System.Drawing">
+<value>270, 89</value>
+</data>
+<data name="richTextBox_SourceDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1001, 99</value>
+</data>
+<data name="richTextBox_SourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>1001, 273</value>
+</data>
+<data name="secondToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="secondToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem1.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="secondToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem2.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="secondToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem3.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="secondToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem4.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="secondToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="secondToolStripMenuItem5.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+<data name="separatorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>204, 26</value>
+</data>
+<data name="separatorToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件夹路径分隔符</value>
+  </data>
+<data name="separatorToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="separatorToolStripMenuItem1.Text" xml:space="preserve">
+    <value>分隔符</value>
+  </data>
+<data name="sourcePathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>174, 26</value>
+</data>
+<data name="sourcePathToolStripMenuItem.Text" xml:space="preserve">
+    <value>源文件路径</value>
+  </data>
+<data name="splitContainer_Command_OptionsAndOutput.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 578</value>
+</data>
+<data name="splitContainer_Command_OptionsAndOutput.SplitterDistance" type="System.Int32, mscorlib">
+<value>100</value>
+</data>
+<data name="splitContainer_ImageViewer_SourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 442</value>
+</data>
+<data name="splitContainer_ImageViewer_SourcePaths.SplitterDistance" type="System.Int32, mscorlib">
+<value>300</value>
+</data>
+<data name="splitContainer_Options_Result.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 465</value>
+</data>
+<data name="splitContainer_Options_Result.SplitterDistance" type="System.Int32, mscorlib">
+<value>100</value>
+</data>
+<data name="splitContainer_SourceDirectories_Other.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 578</value>
+</data>
+<data name="splitContainer_SourceDirectories_Other.SplitterDistance" type="System.Int32, mscorlib">
+<value>200</value>
+</data>
+<data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+<value>92, 26</value>
+</data>
+<data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+<value>1137, 616</value>
+</data>
+<data name="tableLayoutPanel_Copy.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 578</value>
+</data>
+<data name="tableLayoutPanel_DestinationDirectoryPath_DestinationFileName.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 578</value>
+</data>
+<data name="tableLayoutPanel_DestinationRootDirectory.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel_DestinationRootDirectory.Size" type="System.Drawing.Size, System.Drawing">
+<value>1103, 96</value>
+</data>
+<data name="tableLayoutPanel_DestinationRootDirectory_DestinationSubDirectories.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel_DestinationRootDirectory_DestinationSubDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1113, 257</value>
+</data>
+<data name="tableLayoutPanel_ImageViewer.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel_ImageViewer.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 104</value>
+</data>
+<data name="tableLayoutPanel_Options.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 578</value>
+</data>
+<data name="tableLayoutPanel_SourceDirectories.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel_SourceDirectories.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 103</value>
+</data>
+<data name="tableLayoutPanel_SourcePaths.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel_SourcePaths.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 277</value>
+</data>
+<data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+<value>1123, 352</value>
+</data>
+<data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 26</value>
+</data>
+<data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+<value>1119, 80</value>
+</data>
+<data name="tabPage_Copy.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 30</value>
+</data>
+<data name="tabPage_Copy.Size" type="System.Drawing.Size, System.Drawing">
+<value>1129, 582</value>
+</data>
+<data name="tabPage_Copy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+<data name="tabPage_Destination.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 30</value>
+</data>
+<data name="tabPage_Destination.Size" type="System.Drawing.Size, System.Drawing">
+<value>1129, 582</value>
+</data>
+<data name="tabPage_Destination.Text" xml:space="preserve">
+    <value>目的路径</value>
+  </data>
+<data name="tabPage_Execute.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 30</value>
+</data>
+<data name="tabPage_Execute.Size" type="System.Drawing.Size, System.Drawing">
+<value>1129, 582</value>
+</data>
+<data name="tabPage_Execute.Text" xml:space="preserve">
+    <value>执行命令</value>
+  </data>
+<data name="tabPage_Options.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 30</value>
+</data>
+<data name="tabPage_Options.Size" type="System.Drawing.Size, System.Drawing">
+<value>1129, 582</value>
+</data>
+<data name="tabPage_Options.Text" xml:space="preserve">
+    <value>任务参数</value>
+  </data>
+<data name="tabPage_Source.Location" type="System.Drawing.Point, System.Drawing">
+<value>4, 30</value>
+</data>
+<data name="tabPage_Source.Size" type="System.Drawing.Size, System.Drawing">
+<value>1129, 582</value>
+</data>
+<data name="tabPage_Source.Text" xml:space="preserve">
+    <value>源路径</value>
+  </data>
+<data name="textBox_SearchDirectoriesDeepnessLimitation.Location" type="System.Drawing.Point, System.Drawing">
+<value>2, 49</value>
+</data>
+<data name="textBox_SearchDirectoriesDeepnessLimitation.Size" type="System.Drawing.Size, System.Drawing">
+<value>270, 23</value>
+</data>
+<data name="tipsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>114, 26</value>
+</data>
+<data name="tipsToolStripMenuItem.Text" xml:space="preserve">
+    <value>提示</value>
+  </data>
+<data name="tipsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>114, 26</value>
+</data>
+<data name="tipsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>提示</value>
+  </data>
+<data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>111, 24</value>
+</data>
+<data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>文件夹名组成</value>
+  </data>
+<data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>103, 6</value>
+</data>
+<data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 26</value>
+</data>
+<data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 26</value>
+</data>
+<data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+<value>106, 26</value>
+</data>
+<data name="yearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<data name="yearToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem1.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<data name="yearToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem2.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<data name="yearToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem3.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<data name="yearToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem4.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<data name="yearToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+<value>99, 26</value>
+</data>
+<data name="yearToolStripMenuItem5.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>2.0</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+</root>

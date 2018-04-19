@@ -1,0 +1,2 @@
+zzxcf -rc *.cs
+pause

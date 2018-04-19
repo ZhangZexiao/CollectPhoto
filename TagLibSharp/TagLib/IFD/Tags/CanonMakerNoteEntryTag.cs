@@ -1,0 +1,32 @@
+namespace TagLib.IFD.Tags
+{
+	public enum CanonMakerNoteEntryTag:
+	ushort
+	{
+		Unknown0=0,
+		CameraSettings=1,
+		FocalLength=2,
+		Unknown3=3,
+		ShotInfo=4,
+		Panorama=5,
+		ImageType=6,
+		FirmwareVersion=7,
+		ImageNumber=8,
+		OwnerName=9,
+		SerialNumber=12,
+		Unknown13=13,
+		CustomFunctions=15,
+		ModelID=16,
+		PictureInfo=18,
+		SerialNumberFormat=21,
+		CanonFileInfo=147,
+		LensModel=149,
+		SerialInfo=150,
+		ProcessingInfo=160,
+		WhiteBalanceTable=169,
+		MeasuredColor=170,
+		ColorSpace=180,
+		SensorInfo=224,
+		BlackLevel=16392,
+	}
+}
